@@ -136,7 +136,7 @@ class InfinityTable extends Component {
 		this.refTable = this.refScroll.getElementsByTagName('tbody')[0]
 		/* eslint-enabled */
 		this.createUnderPlaceholder()
-		this.createUpperPlaceholder()
+		// this.createUpperPlaceholder()
 		this.setStateWithThrottle = throttle(this.updateTable, 0)
 		this.props.onScroll && this.refScroll.addEventListener('scroll', this.props.onScroll)
 
